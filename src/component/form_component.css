@@ -1,0 +1,21 @@
+/*! important means its more important*/
+form{
+	margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"]
+{
+	color:white !important;
+	background-color: transparent !important;
+	border:0px;
+	border-bottom: 2px solid whitesmoke;
+	border-radius: 0px;
+	font-weight:bold;
+	font-size:x-large;
+	
+}
+
+form input:focus{
+	box-shadow: none !important;
+}
